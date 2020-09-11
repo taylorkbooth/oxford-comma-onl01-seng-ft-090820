@@ -5,10 +5,6 @@ def oxford_comma(array)
     return array.join(" and ")
     elsif array.size >= 3
     arr = array.pop
-    return array.join(", ") + " and " + arr 
+    return array.join(", ") + ", and" + arr 
   end
 end
-
-
-
-# ["kiwi","durian","starfruit","mangos","dragon fruits"]
